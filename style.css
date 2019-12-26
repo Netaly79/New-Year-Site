@@ -1,0 +1,67 @@
+body{
+    margin:0;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+}
+header{
+    background-color:#eee;
+    width:100vw;
+    border-bottom:6px dotted white;
+}
+main {
+    width:100vw;
+    min-height: 65vh ;
+    background-color: rgb(248, 248, 252);
+}
+footer{
+    background-color: lavender;
+    width:100vw;
+    background-image: url("images/background-2997386__340.webp");
+    height: 100px;
+    background-size: contain;
+    background-position: right;
+    margin: 0;
+}
+.header-box{
+    background-image: url("images/christmas-2932077__340.webp");
+    background-size: contain;
+    margin: 0;  
+    min-height: 50px;
+}
+h1{
+    font-family: 'Lobster', cursive; 
+    color:rgb(8, 1, 95);
+    font-size: 50px;
+    padding: 20px 0;
+    margin: 0;
+    text-align: center;
+    letter-spacing: 10px;
+    animation: go-left-right 3s infinite alternate;
+}
+@keyframes go-left-right{
+    from {
+        color: #08015f;              
+      }
+      to {
+       color: rgb(85, 153, 231); 
+      }
+}
+.first {
+    display:flex;
+    padding:30px;
+}
+.text-block{
+    max-width: 50%;
+    text-align: justify;
+}
+.picture-block{
+    max-width: 40%;
+}
+
+img{
+    width:100%;
+    object-fit: cover;
+}
+h3{
+    text-align: center;
+}
